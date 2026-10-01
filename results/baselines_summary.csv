@@ -1,0 +1,37 @@
+,,,10 %,30 %,50 %,metric
+A,Majoritaire,standard,0.193 ± 0.000,0.193 ± 0.000,0.193 ± 0.000,acc
+A,Majoritaire,équilibré,0.193 ± 0.000,0.193 ± 0.000,0.193 ± 0.000,acc
+A,MLP,standard,0.562 ± 0.020,0.738 ± 0.010,0.766 ± 0.011,acc
+A,MLP,équilibré,0.529 ± 0.026,0.695 ± 0.026,0.751 ± 0.023,acc
+A,k-NN (coords),standard,0.780 ± 0.007,0.848 ± 0.006,0.865 ± 0.008,acc
+A,k-NN (coords),équilibré,0.784 ± 0.009,0.846 ± 0.007,0.866 ± 0.008,acc
+A,Label Propagation,standard,0.821 ± 0.014,0.868 ± 0.005,0.885 ± 0.006,acc
+A,Label Propagation,équilibré,0.821 ± 0.015,0.868 ± 0.005,0.885 ± 0.006,acc
+A,Node2Vec + LogReg,standard,0.357 ± 0.010,0.455 ± 0.008,0.489 ± 0.014,acc
+A,Node2Vec + LogReg,équilibré,0.374 ± 0.023,0.474 ± 0.031,0.511 ± 0.041,acc
+B,Majoritaire,standard,0.193 ± 0.000,0.193 ± 0.000,0.193 ± 0.000,acc
+B,Majoritaire,équilibré,0.193 ± 0.000,0.193 ± 0.000,0.193 ± 0.000,acc
+B,MLP,standard,0.203 ± 0.014,0.224 ± 0.031,0.260 ± 0.026,acc
+B,MLP,équilibré,0.095 ± 0.017,0.158 ± 0.012,0.198 ± 0.017,acc
+B,Label Propagation,standard,0.821 ± 0.014,0.868 ± 0.005,0.885 ± 0.006,acc
+B,Label Propagation,équilibré,0.821 ± 0.015,0.868 ± 0.005,0.885 ± 0.006,acc
+B,Node2Vec + LogReg,standard,0.357 ± 0.010,0.455 ± 0.008,0.489 ± 0.014,acc
+B,Node2Vec + LogReg,équilibré,0.374 ± 0.023,0.474 ± 0.031,0.511 ± 0.041,acc
+A,Majoritaire,standard,0.003 ± 0.000,0.003 ± 0.000,0.003 ± 0.000,f1_macro
+A,Majoritaire,équilibré,0.003 ± 0.000,0.003 ± 0.000,0.003 ± 0.000,f1_macro
+A,MLP,standard,0.273 ± 0.024,0.471 ± 0.019,0.495 ± 0.020,f1_macro
+A,MLP,équilibré,0.283 ± 0.021,0.491 ± 0.036,0.580 ± 0.027,f1_macro
+A,k-NN (coords),standard,0.616 ± 0.020,0.730 ± 0.015,0.762 ± 0.023,f1_macro
+A,k-NN (coords),équilibré,0.630 ± 0.010,0.729 ± 0.020,0.771 ± 0.019,f1_macro
+A,Label Propagation,standard,0.689 ± 0.028,0.779 ± 0.016,0.802 ± 0.013,f1_macro
+A,Label Propagation,équilibré,0.689 ± 0.028,0.779 ± 0.016,0.804 ± 0.010,f1_macro
+A,Node2Vec + LogReg,standard,0.071 ± 0.011,0.147 ± 0.006,0.193 ± 0.013,f1_macro
+A,Node2Vec + LogReg,équilibré,0.102 ± 0.007,0.207 ± 0.013,0.266 ± 0.025,f1_macro
+B,Majoritaire,standard,0.003 ± 0.000,0.003 ± 0.000,0.003 ± 0.000,f1_macro
+B,Majoritaire,équilibré,0.003 ± 0.000,0.003 ± 0.000,0.003 ± 0.000,f1_macro
+B,MLP,standard,0.020 ± 0.011,0.021 ± 0.016,0.042 ± 0.019,f1_macro
+B,MLP,équilibré,0.053 ± 0.015,0.088 ± 0.012,0.101 ± 0.023,f1_macro
+B,Label Propagation,standard,0.689 ± 0.028,0.779 ± 0.016,0.802 ± 0.013,f1_macro
+B,Label Propagation,équilibré,0.689 ± 0.028,0.779 ± 0.016,0.804 ± 0.010,f1_macro
+B,Node2Vec + LogReg,standard,0.071 ± 0.011,0.147 ± 0.006,0.193 ± 0.013,f1_macro
+B,Node2Vec + LogReg,équilibré,0.102 ± 0.007,0.207 ± 0.013,0.266 ± 0.025,f1_macro
